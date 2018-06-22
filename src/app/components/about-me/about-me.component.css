@@ -1,0 +1,14 @@
+h1 {
+  text-align: left;
+  display: inline-block;
+  padding-left: 32px;
+  margin-bottom: 20px;
+}
+
+#me {
+  margin-left: 40px;
+  float: right;
+  border-radius: 50%;
+  width: 370px;
+  height: 370px;
+}
