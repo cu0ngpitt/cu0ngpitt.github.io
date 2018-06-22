@@ -1,0 +1,50 @@
+h3, p, .buttonHolder {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 80px;
+}
+
+body {
+  padding: 0 0 64px 0;
+}
+
+.lastP {
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.buttonHolder {
+  position: relative;
+}
+
+.container-top {
+  position: relative;
+  padding: 64px 32px 0 32px;
+}
+
+.container-bottom {
+  padding-left: 32px;
+  padding-right: 32px;
+}
+.container-top:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.38;
+  filter: invert(40%);
+  background: url(/assets/images/home.jpg) no-repeat;
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
