@@ -1,3 +1,40 @@
-<p>
-  education works!
-</p>
+<body class="jumbotron">
+
+  <h1 class="display-4">My Education</h1>
+
+  <hr class="my-5">  
+
+  <p class="lead">These are the courses I used to achieve my core foundation. With
+    the vast amount of information related to software development, my education
+    will never cease. I will continually learn new skills, languages and
+    refinement of my code writing. </p><br><br>
+
+  <div class="container">
+    <div class="card-columns d-flex justify-content-center">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Codeschool.com</h4><br>
+          <ul>
+            <li class="list" *ngFor="let ed of codeschool">
+              <i class="fas fa-graduation-cap fa-lg"></i>
+              {{ed.course}}
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Egghead.io</h4><br>
+          <ul>
+            <li class="list" *ngFor="let ed of egghead">
+              <i class="fas fa-graduation-cap fa-lg"></i>
+              {{ed.course}}
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
