@@ -1,0 +1,30 @@
+.form-control {
+  background: white;
+  padding-left: 40px;
+}
+
+.form-group {
+  position: relative;
+}
+
+.form-group i {
+  position: absolute;
+  left:0;
+  top:8px;
+  padding:9px 15px;
+  color:#aaa;
+  transition:.3s;
+}
+
+.form-control:focus {
+  -webkit-box-shadow: 0 0 0 0.2rem dodgerBlue;
+          box-shadow: 0 0 0 0.2rem dodgerBlue;
+}
+
+.form-control:focus + i {
+  color: dodgerBlue;
+}
+
+.buttonHolder {
+  text-align: center;
+}
