@@ -1,0 +1,18 @@
+:host /deep/ body {
+  width: 900px;
+  margin: 0 auto;
+}
+
+:host /deep/ h1 {
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+:host >>> .list {
+  list-style: none;
+  margin-bottom: 8px;
+}
+
+:host >>> #bulletIcons {
+  height: 30.1px;
+}
