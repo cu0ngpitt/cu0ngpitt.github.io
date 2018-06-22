@@ -1,0 +1,13 @@
+.navbar-nav {
+  position: relative;
+  margin: 0 auto;
+}
+
+.nav-item {
+  margin-right: 100px;
+}
+
+.navbar-brand {
+  position: absolute;
+  margin: 0;
+}
